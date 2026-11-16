@@ -1,8 +1,31 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(0, 90, 15);
+  color: white;
+  padding: 60px;
+  font-family: Arial, 'Times New Roman', Times, serif;
 }
 
-a {
-  color: #00B7FF;
+
+h1{ 
+  color: lightskyblue;
+  margin-bottom: 30px;
+
+}
+
+h2{
+  color: rgb(5, 205, 216)
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+p{
+  margin-bottom: 30px;
+}
+
+a{
+  color: rgb(5, 205, 216);
+}
+
+a:hover {
+  color: lightskyblue;
 }
