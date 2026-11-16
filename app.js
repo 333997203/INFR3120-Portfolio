@@ -1,4 +1,4 @@
-
+// Imports the modules needed to run the Express application
 let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
@@ -18,11 +18,11 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-
+// Server static files such as CSS, Javascript, Font Awesome, and Bootstrap
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'node_modules')));
 
-// Routes
+// Links the portfolio pages to their Express routes
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
